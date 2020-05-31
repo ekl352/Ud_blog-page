@@ -1,0 +1,53 @@
+
+/*Typography for both pages*/
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	color: #666699;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+p {
+	color: #808080;
+}
+
+a {
+	text-decoration: none;
+	margin: 0;
+	color: #551a8b;	
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+blockquote {
+	border: 1px solid slategrey;
+	background-color: #C0C0C0;
+	border-radius: 5px;
+}
+
+#quote {
+	color: #806699;
+}
+
+#blue {
+	color: #0000EE;
+	text-decoration: underline;
+}
+
+
+
