@@ -6,15 +6,10 @@
 
 /*Grids*/
 
-.contain1,
-.contain2 {
+.contain1 {
 	display: grid;
 	width: 100%;
 	height: auto;
-	
-}
-
-.contain1 {
 	grid-template-columns: 1fr 4fr 1fr;
 	grid-template-rows: 1fr 5fr 0.3fr ; 
 	grid-template-areas: 
@@ -24,6 +19,9 @@
 }
 
 .contain2 {
+	display: grid;
+	width: 100%;
+	height: auto;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 0.1fr 1fr 0.6fr 0.1fr;
 	grid-template-areas:
